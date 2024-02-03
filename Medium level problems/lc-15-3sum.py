@@ -1,4 +1,5 @@
 #My initial solution to the problem
+#This solution returns a single array multiple times if many elements present
 
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
@@ -18,4 +19,3 @@ class Solution:
             return outer
         else:
             return []
-        
